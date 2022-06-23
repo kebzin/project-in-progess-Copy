@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,300;1,400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+:root{
+    --undefine-coloe1: rgb(146, 173, 25);
+    ---undefine--color2: rgb(43, 145, 12);
+    --boxshado: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.welcome-page{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+   z-index: 20;
+   
+  
+   
+}
+
+.welcome-page-container{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem 3rem;
+    position: relative;
+    transition: 3s;
+    border-radius: 1rem;
+    
+}
+.heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.4rem;
+    transition: 3s;
+
+}
+.item-list{
+    margin-bottom: .9rem;
+}
+.text-content h3{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+.text-content p{
+    font-size: .9rem;
+    color: rgb(77, 72, 72);
+}
+.button-container{
+    object-fit: contain;    
+    justify-content: center;
+    display: flex;
+}
+.button-container .btn{
+    width: 100%;
+    max-width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgb(43, 145, 12);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+   font-weight: 700;
+  
+    
+}
+.button-container .btn:hover{
+    background: var(--undefine-coloe1);    
+
+   
+}
+.icons{
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+/* .Active{
+    display: none;
+}  */
+
+.button-container{
+    margin-bottom: 1rem;
+}
+
+/* login section begins here */
+
+.input-field{
+    background: #ccc;
+    margin-bottom: 1rem;
+    margin-top: 2rem ;
+    height: 2.8rem;
+    border-radius: .5rem;
+    border: 1PX solid #ccc;
+    
+}
+
+
+.input-field input{
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    
+}
+
+.login-tex{
+    font-weight: 1000;
+    font-size: 2.4rem;
+    
+    
+}
+.forget-password{
+    margin-bottom: 1rem;
+}

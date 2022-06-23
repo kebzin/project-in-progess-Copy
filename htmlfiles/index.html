@@ -1,0 +1,444 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="/CssFiles/mainpage.css">
+
+</head>
+<body>
+    <!--in this container am creating a navigation section and the box -->
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+                <img src="/images/menu.png" alt="" class="menue-icon" id="menue-icon">
+                <!-- <img src="/images/logo.png" alt=""  class="logo-icon" id="logo-icon"> -->
+            <h1 class="logo_tex">Rental</h1>
+                
+           
+            
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="search" name="" id="" placeholder="Search">
+                <img src="/images/search.png" alt="">
+            </div>
+
+        </div>
+        <div class="nav-right flex-div">
+            <img src="/images/upload.png" alt="">
+            <img src="/images/more.png" alt="">
+            <img src="/images/notification.png" alt="">
+            <img src="/images/Jack.png" alt="" class="user-icon" id="user-icon">
+        </div>
+    </nav>
+
+    <!-- side bar  -->
+    <div class="sidebar" id="sidebar">
+        <div class="sortcort-link">
+        
+            <div class="sidenar-profile">
+                <div class="sidebar-small-container">
+                    <div class="sidebar-profile-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="sidebar-profile-details">
+                       <div>
+                        <h3>Kebba Waiga</h3>
+                        <p class="contact">+2202493268</p>
+                       </div>
+                       <div class="profile-details-icons">
+                           <img src="/icons/expand-More.svg" alt="" id="Sidebar-Enpand_more">
+                       </div>
+                    </div>
+                </div>
+               
+                <!-- sidebar more profile start -->
+                <div class="sidebar-more-details sidebar_more_details">
+                    <div class="flex addAccount">
+                        <a class="sidebar-more-link " href="">
+                            <div class="profile_quick">
+    
+                        </div>
+                        <p>Kebba Waiga</p>
+                    </a>
+                    </div>
+                    <a href=""><img src="/icons/add_black_24dp.svg" alt=""> <p>Add Account</p></a>
+                </div>
+                <!-- sidemore profile ends -->
+
+            </div>
+            <a href=""><img src="/images/home.png" alt=""><p>Home</p></a>
+            <a href=""><img src="/images/explore.png" alt=""><p>Place Nearby</p></a>
+            <a href=""><img src="/images/history.png" alt=""><p>Post</p></a>
+            <a href=""><img src="/icons/notifications_black_24dp.svg" alt=""><p>Notifaction</p></a>
+            <a href=""><img src="/images/history.png" alt=""><p>Language</p></a>
+            <a href=""><img src="/icons/settings_black_24dp.svg" alt=""><p>Setting</p></a>
+           
+           
+            <hr>
+        </div>
+    </div>
+
+
+    <!-- main content -->
+    <div class="container">
+        <div class="banner">
+            <!-- <div class="banner-quick-link flex-div ">
+                <button type="button" class="quick-link-home quick-link-filter-btn active" data-filter="all" >
+                    <div class="images" >
+                        <img src="/icons/image_black_24dp.svg" alt="">
+                        <p>Houses</p>
+                    </div>
+                </button>
+                <button type="button" class="quick-link-home quick-link-filter-btn " data-filter="cars" >
+                    <div class="images">
+                        <img src="/icons/image_black_24dp.svg" alt="">
+                        <p>Cars</p>
+                    </div>
+                </button>
+                <button type="button" class="quick-link-home quick-link-filter-btn" data-filter="rooms">
+                    <div class="images">
+                        <img src="/icons/restaurant_black_24dp.svg" alt="">
+                        <p>Hotels</p>
+                    </div>
+                </button>
+            </div> -->
+            <div class="quick-link-f">
+                 <div class="filter flex-div">
+                <p><a href="">All</a></p>
+                <p><a href="">Rooms</a></p>
+                <p><a href="">Hotels</a></p>
+                <p><a href="">Houses</a></p>
+                <p><a href="">Cars</a></p>
+                <p><a href="">Shops</a></p>
+                
+            </div>
+            </div>
+            
+        </div>
+        
+        <div class="list-container grid" data-product="house-list">
+           
+            <div class="img-lidt compound">
+                <a href="/htmlfiles/click-item-View.html"> <img src="/images/Houses-For-Rent.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                   <a href="/htmlfiles/click-item-View.html"><img src="/images/Jack.png" alt=""></a> 
+                    <div class="img-list-info">
+                        <a href="/CssFiles/click-item-View.css">Gamnbia property for Rent | House for rent in Bijilow</a>
+                        <p> Gambia Property For Rent</p>
+                        <p>15k View &bull; <span class="time-pass"></span> ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <div class="image-container">
+                      <a href=""> <img src="/images/download3.jpg" alt="" class="thumneil"></a>
+                </div>
+                <div class="flex-div">
+                    <img src="/images/Jack.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; <span class="time-pass"></span> ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <a href=""> <img src="/images/download3.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/megan.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <a href=""> <img src="/images/73902_TujerengHousing_IMG_19_0000.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/simon.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Tujereng House for Rent</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <a href=""> <img src="/images/3632.webp" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/Jack.png" alt="" >
+                    <div class="img-list-info">
+                        <a href="">Gambia property Real Estate | House in Bijilo</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; <span class="time-pass"></span> ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound">
+                <a href=""> <img src="/images/download4.jpg" alt="" class="thumneil"  id="hover"></a>
+                <div class="flex-div">
+                    <img src="/images/simon.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <a href=""> <img src="/images/images3.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/icons/user.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt compound" data-product="house-list">
+                <a href=""> <img src="/images/images5.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                    
+                    </div>
+                </div>
+                <!-- beadrooms -->
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/beadroom1.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/4718d2ee50b98fec7f7f8ece8db694e6.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/beadroom3.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/max-brown-7th-district-medium-roo.2e16d0ba.fill-1200x675_JcUfPt9.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/0x0.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt beadroom" data-product="beadroom-list">
+                <a href=""> <img src="/images/208086215.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- cars -->
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars1.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars2.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars3.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars3.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars4.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars6.jpg" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="img-lidt cars" data-product="cars-list">
+                <a href=""> <img src="/images/cars7.webp" alt="" class="thumneil"></a>
+                <div class="flex-div">
+                    <img src="/images/tom.png" alt="">
+                    <div class="img-list-info">
+                        <a href="">Best rent place to have good confortable home</a>
+                        <p>Waiga Hotel</p>
+                        <p>15k View &bull; 2 days ago</p>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <section class="homepage-profile">
+        <div class="account-profile">
+            <div class="profile-content" >
+               <div class="expan-more">
+                <img src="/icons/expand_more_black_24dp.svg" alt="" id="expand-more">
+            </div>
+            <div class="profile-image">
+                <a href=""><img src="/images/tom.png" alt=""></a>
+            </div>
+            <div class="setting">
+                <img src="/icons/settings_white_24dp.svg" alt="">
+            </div> 
+            </div>
+            
+            <div class="profile-email">
+                <p>kebba waiga</p>
+                <a href="">kebbawaiga@gmail.com</a>
+            </div>
+            <div class="profile-buttom">
+                <p><a href="">Manage Account</a></p>
+                <p><a href="">Add Account</a></p>
+                <img src="/icons/more_horiz_black_24dp.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="upload-pictures-on-the-mainpage">
+        <div class="upload-container-picture">
+            <div class="upload-container">
+             <div class="top flex-div">
+                 <img src="/icons/arrow_back_FILL0_wght400_GRAD0_opsz48.svg" alt="" id="top-back">
+                 <h1>Creat a Post</h1>
+             </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+ 
+
+    <div class="flex-div  nav-bottom">
+        <div class="navbuttom">
+            <img src="/icons/home_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+        </div>
+        <div class="navbuttom" id="upload-buttone-home">
+            <img src="/icons/add_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="" >
+        </div>
+        <div class="navbuttom" id="account-buttom" onclick="display()">
+            <img src="/icons/person_FILL1_wght500_GRAD200_opsz40.svg" alt=" ">
+        </div>
+        <div class="navbuttom">
+            <img src="/icons/settings_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+        </div>
+    </div>
+
+    
+    
+
+    <script src="/javascript/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    translate:  .3s linear;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+:root{
+    --profile-border-radius: 100%;
+    --button-first-color :#1A73E8;
+    --button-border-radioues: 0.5rem;
+    --box-shadow: 0 10px 25px rgba(95, 99, 105);
+}
+
+.account-section{
+    justify-content: center;
+    transition: 5s;
+    margin-top: 2rem;
+    
+   
+}
+
+.account-section .content{
+    box-shadow: var(--box-shadow); 
+    padding: 1rem 2rem;
+    border-radius: var(--button-border-radioues);
+   
+}
+.account{
+    margin-bottom: 2.5rem;
+}
+ .content .profile-image{
+    border-radius: var(--profile-border-radius);
+   background: firebrick;
+   object-fit: fill;
+   width: 100px;
+   height: 100px;
+   overflow: hidden;
+
+}
+.content .profile-image img{
+    overflow: hidden;
+    width: 100%;
+    object-fit: fill;
+    
+   
+}
+.content .account h2{
+font-size: 1.6rem;
+letter-spacing: 2px;
+word-spacing: 2px;
+}
+.content .account p{
+    font-size: .9rem;
+    
+    line-height: 1px;
+    margin-bottom: 1rem;
+    
+}
+.content .account p a{
+    color: inherit;
+    
+}
+
+.setting-div{
+    
+    margin-top: .5rem;
+    cursor: pointer;
+    
+    color: inherit;
+    
+    
+}
+.setting-div:hover:focus{
+    border: 1px solid var(--button-first-color);
+}
+.setting-div:hover{
+    background: #ccc;
+    border-radius: var(--button-border-radioues);
+    padding: 10px;
+}
+
+.setting-div .flex-div{
+    align-items: center;
+    justify-content: space-between;
+}
+.setting-div img{
+    width: 35px ;
+    padding-right: 1rem;
+}
+.setting-div span{
+    font-size: .6rem;
+}
+.setting-div p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.setting-div i{
+    padding-left:2rem;
+    margin-right: auto;
+    
+}
